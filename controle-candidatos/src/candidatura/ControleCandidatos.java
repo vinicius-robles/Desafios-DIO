@@ -12,7 +12,22 @@ public class ControleCandidatos {
         // analisarCandidato(2200.0);
         // analisarCandidato(2000.0);
         selecaoCandidatos();
+        imprimirCandidatos();
 
+    }
+
+    static void imprimirCandidatos() {
+        String[] candidatos = { "João", "Maria", "José", "Ana", "Carlos" };
+
+        for (int i = 0; i < candidatos.length; i++) {
+            System.out.println("O candidato de nº " + (i + 1) + " é o " + candidatos[i]);
+        }
+
+        System.out.println("Forma abreviada de iteração for each");
+
+        for (String candidato : candidatos) {
+            System.out.println("O candidato selecionado foi " + candidato);
+        }
     }
 
     static void selecaoCandidatos() {
@@ -41,7 +56,7 @@ public class ControleCandidatos {
         double salarioBase = 2000.00;
 
         while (candidatosSelecionados < 5 && candidatoAtual < candidatos.length) {
-            String candidato = candidatos[candidatoAtual]; // pega o candidato atual
+            String candidato = candidatos[candidatoAtual]; // pega o candidato atual do array de candidatos selecionados
             double salarioPretendido = valorPretendido(); // gera um salário pretendido aleatório
 
             System.out.printf("O candidato " + candidato +
