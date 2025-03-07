@@ -44,9 +44,10 @@ public class ControleCandidatos {
             String candidato = candidatos[candidatoAtual]; // pega o candidato atual
             double salarioPretendido = valorPretendido(); // gera um salário pretendido aleatório
 
-            System.out.printf("O candidato %.2f ", candidato + " solicitou este valor de salário " + salarioPretendido);
+            System.out.printf("O candidato " + candidato +
+                    " solicitou este valor de salário %.2f %n", salarioPretendido);
             if (salarioBase >= salarioPretendido) {
-                System.out.printf("O candidato %.2f", candidato + " foi selecionado para a vaga.");
+                System.out.printf("O candidato " + candidato + " foi selecionado para a vaga. %n");
                 candidatosSelecionados++; // incrementa o contador de candidatos selecionados
             }
             candidatoAtual++; // passa para o próximo candidato
