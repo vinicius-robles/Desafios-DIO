@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>215</x>
+      <y>500</y>
+      <w>155</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+*ReprodutorMusical*
+Package::apps
+--
+
+--
++ tocar() : void
++ pausar() : void
++ selecionarMusica(String nomeMusica) : void
++ aumentarVolume() : void
++ diminuirVolume() : void
+bg=yellow
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>395</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>*Iphone*
+--
+
+--
++ abrirApp(String app) : void
++ fecharApp(String app) : void
++ colocarAppSegundoPlano(String app) : void
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>375</x>
+      <y>500</y>
+      <w>125</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+*NavegadorInternet*
+Package::apps
+--
+
+--
++ exibirPagina() : void
++ adicionarNovaAba() : void
++ atualizarPagina() : void
+bg=yellow
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>500</y>
+      <w>130</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+*MensageiroInstantaneo*
+Package::apps
+--
+
+--
++ enviarMensagem() : void
++ receberMensagem() : void
++ enviarImagem() : void
++ selecionarContato(String name) : void
+bg=yellow
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>155</x>
+      <y>415</y>
+      <w>145</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0;270.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>440</y>
+      <w>35</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>435</x>
+      <y>415</y>
+      <w>130</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>240.0;170.0;240.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>505</x>
+      <y>500</y>
+      <w>130</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+*AparelhoTelefonico*
+Package::apps
+--
+
+--
++ ligar() : void
++ atender() : void
++ desligar() : void
++ iniciarCorreioVoz() : void
++ selecionarContato(String name) : void
+bg=yellow
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>385</x>
+      <y>440</y>
+      <w>45</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>70.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
