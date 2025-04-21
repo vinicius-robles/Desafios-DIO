@@ -33,17 +33,17 @@ public class NumberText extends JTextField implements EventListener {
 
             @Override
             public void insertUpdate(DocumentEvent e) {
-
+                changeSpace();
             }
 
             @Override
             public void removeUpdate(DocumentEvent e) {
-
+                changeSpace();
             }
 
             @Override
             public void changedUpdate(DocumentEvent e) {
-
+                changeSpace();
             }
 
             private void changeSpace() {

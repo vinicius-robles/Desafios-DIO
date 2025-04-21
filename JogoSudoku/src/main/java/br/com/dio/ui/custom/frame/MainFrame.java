@@ -1,9 +1,11 @@
 package br.com.dio.ui.custom.frame;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.Dimension;
 
 public class MainFrame extends JFrame {
+
     public MainFrame(final Dimension dimension, final JPanel mainPanel){
         super("Sudoku");
         this.setSize(dimension);
@@ -13,6 +15,6 @@ public class MainFrame extends JFrame {
         this.setLocationRelativeTo(null);
         this.setResizable(false);
         this.add(mainPanel);
-
     }
+
 }

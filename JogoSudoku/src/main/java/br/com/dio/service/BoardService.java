@@ -18,29 +18,27 @@ public class BoardService {
         this.board = new Board(initBoard(gameConfig));
     }
 
-    public List<List<Space>> getSpaces() {
+    public List<List<Space>> getSpaces(){
         return board.getSpaces();
     }
 
-    public void reset() {
+    public void reset(){
         board.reset();
     }
 
-    public boolean hasErrors() {
+    public boolean hasErrors(){
         return board.hasErrors();
     }
 
-    public GameStatusEnum getStatus() {
+    public GameStatusEnum getStatus(){
         return board.getStatus();
     }
 
-    public boolean gameIsFinished() {
+    public boolean gameIsFinished(){
         return board.gameIsFinished();
     }
 
-
-
-    private List<List<Space>> initBoard(Map<String, String> gameConfig) {
+    private List<List<Space>> initBoard(final Map<String, String> gameConfig) {
         List<List<Space>> spaces = new ArrayList<>();
         for (int i = 0; i < BOARD_LIMIT; i++) {
             spaces.add(new ArrayList<>());
@@ -55,5 +53,4 @@ public class BoardService {
 
         return spaces;
     }
-
 }

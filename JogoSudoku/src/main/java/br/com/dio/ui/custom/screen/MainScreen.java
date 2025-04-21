@@ -79,14 +79,14 @@ public class MainScreen {
 
     private void addFinishGameButton(final JPanel mainPanel) {
         finishGameButton = new FinishGameButton(e -> {
-            if(boardService.gameIsFinished()) {
-                showMessageDialog(null, "Parabéns você concluiu o jogo!");
+            if (boardService.gameIsFinished()){
+                showMessageDialog(null, "Parabéns você concluiu o jogo");
                 resetButton.setEnabled(false);
                 checkGameStatusButton.setEnabled(false);
                 finishGameButton.setEnabled(false);
             } else {
-                showMessageDialog(null, "Seu jogo tem alguma inconsistência, ajuste e tente novamente");
-
+                var message = "Seu jogo tem alguma inconsistência, ajuste e tente novamente";
+                showMessageDialog(null, message);
             }
         });
         mainPanel.add(finishGameButton);
