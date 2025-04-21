@@ -2,7 +2,7 @@ package br.com.dio.ui.custom.frame;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import java.awt.Dimension;
+import java.awt.*;
 
 public class MainFrame extends JFrame {
 

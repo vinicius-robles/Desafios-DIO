@@ -5,9 +5,12 @@ import br.com.dio.service.EventEnum;
 import br.com.dio.service.EventListener;
 
 import javax.swing.JTextField;
+
+import javax.swing.border.LineBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.awt.*;
+import java.awt.Color;
 
 import static br.com.dio.service.EventEnum.CLEAR_SPACE;
 import static java.awt.Font.PLAIN;
@@ -19,6 +22,9 @@ public class NumberText extends JTextField implements EventListener {
     public NumberText(final Space space) {
         this.space = space;
         var dimension = new Dimension(50, 50);
+        this.setForeground(new Color(213, 213, 213));
+        this.setBackground(new Color(39, 39, 39));
+        this.setBorder(new LineBorder(new Color(56, 56, 56)));
         this.setSize(dimension);
         this.setPreferredSize(dimension);
         this.setVisible(true);
