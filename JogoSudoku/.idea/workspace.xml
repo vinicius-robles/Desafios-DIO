@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fbf4c70-caa8-442e-b291-a1ee1f28e7ac" name="Changes" comment="Fix: arruma bug que não iniciava e não concluia o jogo.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/button/CheckGameStatusButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/button/CheckGameStatusButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/button/FinishGameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/button/FinishGameButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/button/ResetButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/button/ResetButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/frame/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/frame/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/input/NumberText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/input/NumberText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/panel/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/panel/MainPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/panel/SudokuSector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dio/ui/custom/panel/SudokuSector.java" afterDir="false" />
+    <list default="true" id="3fbf4c70-caa8-442e-b291-a1ee1f28e7ac" name="Changes" comment="Troca das cores da IU para um modo Dark e inserido novo jogo.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745256788413</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Troca das cores da IU para um modo Dark e inserido novo jogo.">
+      <option name="closed" value="true" />
+      <created>1745264712941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745264712941</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +169,7 @@
     <MESSAGE value="Adicionada estrutura inicial da IU" />
     <MESSAGE value="IU do jogo finalizada" />
     <MESSAGE value="Fix: arruma bug que não iniciava e não concluia o jogo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: arruma bug que não iniciava e não concluia o jogo." />
+    <MESSAGE value="Troca das cores da IU para um modo Dark e inserido novo jogo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Troca das cores da IU para um modo Dark e inserido novo jogo." />
   </component>
 </project>
